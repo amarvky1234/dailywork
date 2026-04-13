@@ -1,16 +1,15 @@
-void main(){
-    int rows =5;
-    for(int i =1; i<=rows; i++){
-        // Print leading spaces
-		for (int j = 1; j <= rows - i; j++) {
-			System.out.print(" ");
-		}
-
-		// Print stars with a space after each
-		for (int k = 1; k <= i; k++) {
-			System.out.print("* ");
-		}
-		// Move to the next line
-		System.out.println();
-    }
+void main() {
+    int i = 1;
+    /*while(i <= 40) {
+        if(i%4 == 0){
+            System.out.println(i);
+        }
+        i++;
+    }*/
+   System.out.print("multiples of 4 are ");
+   while(i <= 10) {
+        int mul = 4 * i;
+        System.out.print(mul+",");
+        i++;
+   }
 }

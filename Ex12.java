@@ -1,8 +1,9 @@
-void main(){
-    for(int i=5; i>=1; i--){
-        for(int j=1; j<=i; j++){
-            System.out.print("*");
+void main() {
+    int i = 1;
+    while(i <= 10) {
+        if(i%2 != 0){
+            System.out.println(i);
         }
-        System.out.println("");
+        i++;
     }
 }

@@ -1,12 +1,9 @@
-void main(){
-    int n = 5;
-    for(int i=1; i<=n; i++){
-        for(int j =1; j <= n-i; j++){
-            System.out.print(" ");
-        }
-        for(int k=1; k<=i; k++){
-            System.out.print(i+" ");
-        }
-        System.out.println();
+/*write a program to print multiplication table of 6 using while loop*/
+void main() {
+    int i = 1;
+    while (i <= 10) {
+        int res = 6 * i;
+        System.out.println("6 x " + i+" = " + res);
+        i++;
     }
 }
