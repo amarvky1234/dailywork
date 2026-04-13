@@ -1,12 +1,11 @@
-/*Print all the digits of given number*/
 import java.util.Scanner;
 void main() {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a number: ");
     int num = sc.nextInt();
-    while(num > 0) {
-        int digit = num % 10;
-        System.out.println(digit);
-        num /= 10;
+    for(int i=num; i>=1; i--){
+        if(num % i == 0){
+            System.out.print(i+",");
+        }
     }
 }
