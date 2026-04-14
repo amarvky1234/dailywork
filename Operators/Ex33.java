@@ -1,0 +1,1 @@
+/**Write a program to print the given two numbers in ascending order */

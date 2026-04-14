@@ -1,0 +1,1 @@
+/**Write a program to check a number is having 4 at units place (984) */
