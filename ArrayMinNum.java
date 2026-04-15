@@ -1,0 +1,12 @@
+/**12. Find the minimum number in an array.
+  Input: [23, 34, 54, 10, 4, 7] → Output: 4 */
+void main() {
+    int[] num = {23, 34, 54, 10, 4, 7};
+    int min = num[0];
+    for(int i=1; i<=num.length-1; i++){
+        if(num[i] < min){
+            min = num[i];
+        }
+    }
+    System.out.println("min value : "+min);
+}
