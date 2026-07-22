@@ -1,0 +1,4 @@
+com\joined\entities\LCDTelevision.class
+com\joined\entities\Television.class
+com\joined\helper\EMFRegistry.class
+com\joined\entities\LEDTelevision.class
