@@ -1,0 +1,18 @@
+{
+  "policyNo": "P938945",
+  "policyHolderName": "Smith",
+  "age": 56,
+  "gender": "Male",
+  "contactNo": "8845938234",
+  "benefits": [
+    "risk coverage",
+    "accidental coverage"
+  ],
+  "address": {
+    "addressLine1": "4th street Ameerpet",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zip": "04567",
+    "country": "India"
+  }
+}
