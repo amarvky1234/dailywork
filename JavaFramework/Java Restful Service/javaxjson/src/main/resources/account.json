@@ -1,0 +1,8 @@
+{
+  "accountNo": "ac9337473",
+  "accountHolderName": "Kyle",
+  "accountType": "savings",
+  "branchCode": "SBIN000056",
+  "nominees": ["Smyra", "Kyra"],
+  "balance": 4500
+}
