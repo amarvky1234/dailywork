@@ -1,0 +1,4 @@
+com\ara\beans\KeyGenerator.class
+com\ara\config\AfterAdviceConfig.class
+com\ara\test\AfterAdviceTest.class
+com\ara\aspect\KeyValidationAspect.class
