@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "book",
+      "type": "com.bcp.beans.Book",
+      "sourceType": "com.bcp.beans.Book"
+    }
+  ],
+  "properties": [
+    {
+      "name": "book.author",
+      "type": "java.lang.String",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.isbn",
+      "type": "java.lang.String",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.language",
+      "type": "java.lang.String",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.price",
+      "type": "java.lang.Double",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.published-date",
+      "type": "java.time.LocalDate",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.publisher",
+      "type": "java.lang.String",
+      "sourceType": "com.bcp.beans.Book"
+    },
+    {
+      "name": "book.title",
+      "type": "java.lang.String",
+      "sourceType": "com.bcp.beans.Book"
+    }
+  ],
+  "hints": []
+}
