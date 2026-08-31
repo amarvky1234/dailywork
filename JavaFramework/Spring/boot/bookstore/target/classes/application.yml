@@ -1,0 +1,33 @@
+#server:
+  #port: 8081
+
+management:
+  endpoints:
+    access:
+      default: UNRESTRICTED
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      db:
+        enabled: true
+      show-components: ALWAYS
+      show-details: NEVER
+
+#info:
+  #app:
+    #name: bookstore
+    #version: 1.0
+    #description: book store application used for managing the books
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Mehta@151
+    url: jdbc:mysql://localhost:3306/hibdb
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/

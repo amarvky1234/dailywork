@@ -1,0 +1,16 @@
+com\bookstore\actuator\endpoints\PayTMHealthIndicator.class
+com\bookstore\dao\AuthorDao.class
+com\bookstore\bo\AuthorBo$AuthorBoBuilder.class
+com\bookstore\form\AuthorForm.class
+com\bookstore\runners\CacheInitializationCommandLineRunner.class
+com\bookstore\runners\CacheInitializationApplicationRunner.class
+com\bookstore\validator\AuthorFormValidator.class
+com\bookstore\dto\AuthorDto$AuthorDtoBuilder.class
+com\bookstore\bo\AuthorBo.class
+com\bookstore\dto\AuthorDto.class
+com\bookstore\service\AuthorService.class
+com\bookstore\customizer\TomcatServletWebServerFactoryCustomizer.class
+com\bookstore\actuator\endpoints\InfoHealthIndicatorEndpoint.class
+com\bookstore\BookStoreApplication.class
+com\bookstore\actuator\endpoints\CacheEndpoint.class
+com\bookstore\controller\AuthorController.class
