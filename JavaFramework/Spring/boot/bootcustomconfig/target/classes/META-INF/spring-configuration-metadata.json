@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "artist",
+      "type": "com.bcc.beans.Artist",
+      "sourceType": "com.bcc.beans.Artist"
+    },
+    {
+      "name": "artist.address",
+      "type": "com.bcc.beans.Artist$Address",
+      "sourceType": "com.bcc.beans.Artist"
+    }
+  ],
+  "properties": [
+    {
+      "name": "artist.address.address-line1",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist$Address"
+    },
+    {
+      "name": "artist.address.address-line2",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist$Address"
+    },
+    {
+      "name": "artist.address.city",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist$Address"
+    },
+    {
+      "name": "artist.address.country",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist$Address"
+    },
+    {
+      "name": "artist.address.state",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist$Address"
+    },
+    {
+      "name": "artist.art-type",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist"
+    },
+    {
+      "name": "artist.experience",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bcc.beans.Artist"
+    },
+    {
+      "name": "artist.gender",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist"
+    },
+    {
+      "name": "artist.name",
+      "type": "java.lang.String",
+      "sourceType": "com.bcc.beans.Artist"
+    }
+  ],
+  "hints": []
+}
