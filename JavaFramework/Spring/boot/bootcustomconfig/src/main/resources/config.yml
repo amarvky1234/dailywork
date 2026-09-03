@@ -1,0 +1,13 @@
+---
+artist:
+  name: RajKumar
+  artType: Actor
+  experience: 32
+  gender: Male
+  address:
+    addressLine1: ejhd
+    addressLine2: hdggf
+    city: mumbai
+    state: maharahastra
+    country: india
+...
