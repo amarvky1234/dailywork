@@ -9,10 +9,10 @@
   </parent>
 
   <groupId>boot</groupId>
-  <artifactId>bootevents</artifactId>
+  <artifactId>boot-exitcode</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>bootevents</name>
+  <name>boot-exitcode</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -41,6 +41,10 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
