@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "db",
+      "type": "com.bp.beans.ConnectionManager",
+      "sourceType": "com.bp.beans.ConnectionManager"
+    }
+  ],
+  "properties": [
+    {
+      "name": "db.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bp.beans.ConnectionManager"
+    },
+    {
+      "name": "db.password",
+      "type": "java.lang.String",
+      "sourceType": "com.bp.beans.ConnectionManager"
+    },
+    {
+      "name": "db.url",
+      "type": "java.lang.String",
+      "sourceType": "com.bp.beans.ConnectionManager"
+    },
+    {
+      "name": "db.username",
+      "type": "java.lang.String",
+      "sourceType": "com.bp.beans.ConnectionManager"
+    }
+  ],
+  "hints": []
+}
