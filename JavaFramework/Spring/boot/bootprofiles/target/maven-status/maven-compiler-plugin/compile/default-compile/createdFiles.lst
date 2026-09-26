@@ -1,0 +1,3 @@
+com\bp\BPBootApplication.class
+com\bp\beans\ConnectionManager.class
+META-INF\spring-configuration-metadata.json
