@@ -1,0 +1,3 @@
+com.tts.config.autoconfigure.AudioConfigAutoConfiguration
+com.tts.config.autoconfigure.VoiceSelectionConfigAutoConfiguration
+com.tts.service.autoconfigure.TextToSpeechServiceAutoConfiguration
